@@ -224,7 +224,7 @@
 /* Banner */
 
 	#banner:after {
-		background-color: rgba(23, 24, 32, 0.95);
+		background-color: rgba(23, 24, 32, 0.35);
 	}
 
 /* Footer */
@@ -3013,7 +3013,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #e44c65;
+			background-color: #9A0300;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -3198,7 +3198,7 @@
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(23, 24, 32, 0.95);
+			/*background: rgba(23, 24, 32, 0.55);*/
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3567,7 +3567,7 @@
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: image-path('banner.jpg');
+		background: url('banner.jpg');
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3586,10 +3586,10 @@
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.85), rgba(23, 24, 32, 0.35)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.85), rgba(23, 24, 32, 0.35)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.85), rgba(23, 24, 32, 0.35)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.85), rgba(23, 24, 32, 0.35)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
