@@ -26,7 +26,7 @@
 		font: inherit;
 		font-size: 1.8em;
 		display: inline;
-		font-family: cursive;
+		font-family: 'cursive';
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -3015,7 +3015,7 @@
 
 		.spotlight.left .content, .spotlight.right .content {
 			height: 101%;
-			padding: 6em 3em;
+			padding: 6em 1%;
 			top: 0;
 			width: 28em;
 		}
